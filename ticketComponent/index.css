@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+.ticket {
+    max-width: 350px;
+    height: 700px;
+    position: relative;
+    margin-left: 40%;
+    margin-top: 20px;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+.top {
+    background-color:#ffcc05;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.top-heading {
+    text-align: center;
+    font-weight: 300;
+    padding: 25px 10px 10px 10px;
+    text-transform: uppercase;
+}
+.flex {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-left {
+    margin-left: 20px;
+
+}
+
+.from {
+    display: block;
+    font-size: 70px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.to {
+    margin-top: 0px;
+    margin-left: 25px;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.top-right {
+    margin-top: 20px;
+    padding: 20px;
+    margin-right: 10px;
+}
+.top-right i {
+    font-size: 25px;
+}
+.top-right h3 {
+    font-size: 15px;
+}
+.bottom {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+    position: relative;
+}
+.row-one {
+    display:flex;
+    justify-content: space-between;
+}
+.row-one h3 {
+    display:flex;
+    flex-direction: column;
+    color: #808080;
+}
+.row-two {
+    display:flex;
+    justify-content: space-between;
+}
+.row-two h3 {
+    display:flex;
+    flex-direction: column;
+    color: #808080;
+}
+.hr {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 85px;
+    height: 5px;
+    background-color:#666;
+    opacity:  0.5;
+}
+.row-three {
+    display:flex;
+    justify-content: space-between;
+
+}
+.row-three h3 {
+    display:flex;
+    flex-direction: column;
+    color: #808080;
+}
+.bar-code {
+    margin-left: 32px;
+}
+.bold {
+    color: #000000;
+    font-weight: bold;
+}
